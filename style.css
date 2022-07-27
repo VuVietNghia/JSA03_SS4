@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+.container {
+    background-image: url('https://lucdia2.vn/anh-4k-thien-nhien/imager_1_53459_700.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://lucdia2.vn/anh-4k-thien-nhien/imager_1_53459_700.jpg');
+}
+.top {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button {
+    text-align: center;
+}
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 197, 0);
+    padding: 1%;
+    border-radius: 25px;
+    color: rgb(72, 72, 72);
+    cursor: pointer;
+    font-weight: 900;
+    border: yellow;
+    font-size: 20px;
+}
+.title {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 8%;
+}
+.text {
+    justify-content: center;
+}
+.center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.center-img {
+    width: 100%;
+    height: auto;
+}
